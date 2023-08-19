@@ -1,11 +1,10 @@
 object Temurin {
 
   def fullIndex(ghToken: String): Index = {
-    val adoptIndices = (8 to 16).map(ver => ver -> index(ghToken, ver, adopt = true))
-    val temurinIndices = Seq(8, 11, 16, 17, 18, 19, 20)
+    val temurinIndices = Seq(21)
       .map(ver => ver -> index(ghToken, ver, adopt = false))
 
-    val adoptiumIndices = (adoptIndices.toMap ++ temurinIndices)
+    val adoptiumIndices = (temurinIndices)
       .toVector
       .sortBy(_._1)
       .map(_._2)
@@ -18,8 +17,7 @@ object Temurin {
         }
       }
 
-    val allIndices = adoptIndices.iterator.map(_._2) ++
-      temurinIndices.iterator.map(_._2) ++
+    val allIndices = 
       adoptiumIndices.iterator
     allIndices.foldLeft(Index.empty)(_ + _)
   }
@@ -33,7 +31,7 @@ object Temurin {
     val projectPrefix = if (adopt) "openjdk" else "temurin"
     val ghProj        = s"$projectPrefix$baseVersion-binaries"
     val releases0 = Release.releaseIds(ghOrg, ghProj, ghToken)
-      .filter(!_.prerelease)
+      .filter(_.prerelease)
 
     def jdkName(suffix: String = ""): String =
       "jdk@" + (if (adopt) "adopt" else "temurin") + suffix
@@ -78,13 +76,14 @@ object Temurin {
 
     val prefixes =
       if (baseVersion == 8) Seq("jdk8u")
-      else Seq(s"jdk-$baseVersion.", s"jdk-$baseVersion+")
+      else Seq(s"jdk-$baseVersion.", s"jdk-$baseVersion+") //, "jdk20u-2023-08-18-14-05-beta")
     val indices = releases0
       .filter { release =>
         prefixes.exists(prefix => release.tagName.startsWith(prefix))
       }
       .flatMap { release =>
         val version0 = release.tagName.stripPrefix("jdk-").stripPrefix("jdk")
+        //println("---:\n" + version0)
         val versionInFileName =
           if (version0.contains("+"))
             version0.split('+') match {
@@ -92,30 +91,33 @@ object Temurin {
               case _                    => version0
             }
           else version0
+        //println(versionInFileName + "\n")
         val assets = Asset.releaseAssets(ghOrg, ghProj, ghToken, release.tagName).to(LazyList)
         def index(jdkName: String, assetNamePrefix: Seq[String]) = assets
           .iterator
           .filter(asset => assetNamePrefix.exists(asset.name.startsWith))
           .flatMap { asset =>
             val name0 = assetNamePrefix.foldLeft(asset.name)(_ stripPrefix _)
+            //println(name0)
             val opt = for {
               (arch, rem) <- archOpt(name0)
               (os, rem0)  <- osOpt(rem)
               ext <- {
-                val prefix = "hotspot_" + versionInFileName.filter(_ != '-') + "."
+                val prefix = "hotspot_ea_" + versionInFileName.replace("_", "-0-").stripSuffix("-ea-beta") + "."
+                //println("~~")
+                //println(prefix)
+                //println(rem0)
+                //println("~~~~")
                 Some(rem0)
                   .filter(_.startsWith(prefix))
                   .map(_.stripPrefix(prefix))
               }
               archiveType <- archiveTypeOpt(ext)
-            } yield Index(os, arch, jdkName, "1." + version0.takeWhile(c => c != '-' && c != '+' && c != '_').replace("u", ".0-"), archiveType + "+" + asset.downloadUrl)
+            } yield Index(os, arch, jdkName, "1." + version0.stripSuffix("-ea-beta").replace("+", "-ea"), archiveType + "+" + asset.downloadUrl)
             opt.toSeq
           }
         def releaseIndex = index(jdkName(), assetNamePrefix("jdk"))
-        def debugIndex   = index(jdkName("-debugimage"), assetNamePrefix("debugimage"))
-        def testIndex    = index(jdkName("-testimage"), assetNamePrefix("testimage"))
-        def jreIndex     = index(jdkName("-jre"), assetNamePrefix("jre"))
-        releaseIndex ++ debugIndex ++ testIndex ++ jreIndex
+        releaseIndex
       }
 
     indices.foldLeft(Index.empty)(_ + _)
