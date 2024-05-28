@@ -2,160 +2,59 @@
   "aix": {
     "ppc64": {
       "jdk@adoptium": {
-        "1.21-ea27": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_ppc64_aix_hotspot_ea_21-0-27.tar.gz",
-        "1.21-ea28": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_ppc64_aix_hotspot_ea_21-0-28.tar.gz",
-        "1.21-ea29": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B29-ea-beta/OpenJDK21U-jdk_ppc64_aix_hotspot_ea_21-0-29.tar.gz",
-        "1.21-ea30": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B30-ea-beta/OpenJDK21U-jdk_ppc64_aix_hotspot_ea_21-0-30.tar.gz",
-        "1.21-ea31": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B31-ea-beta/OpenJDK21U-jdk_ppc64_aix_hotspot_ea_21-0-31.tar.gz",
-        "1.21-ea32": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B32-ea-beta/OpenJDK21U-jdk_ppc64_aix_hotspot_ea_21-0-32.tar.gz",
-        "1.21-ea33": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B33-ea-beta/OpenJDK21U-jdk_ppc64_aix_hotspot_ea_21-0-33.tar.gz",
-        "1.21-ea34": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B34-ea-beta/OpenJDK21U-jdk_ppc64_aix_hotspot_ea_21-0-34.tar.gz",
-        "1.21-ea35": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_ppc64_aix_hotspot_ea_21-0-35.tar.gz"
       }
     }
   },
   "alpine-linux": {
     "amd64": {
       "jdk@adoptium": {
-        "1.21-ea26": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B26-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_ea_21-0-26.tar.gz",
-        "1.21-ea27": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_ea_21-0-27.tar.gz",
-        "1.21-ea28": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_ea_21-0-28.tar.gz",
-        "1.21-ea29": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B29-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_ea_21-0-29.tar.gz",
-        "1.21-ea30": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B30-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_ea_21-0-30.tar.gz",
-        "1.21-ea31": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B31-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_ea_21-0-31.tar.gz",
-        "1.21-ea32": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B32-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_ea_21-0-32.tar.gz",
-        "1.21-ea33": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B33-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_ea_21-0-33.tar.gz",
-        "1.21-ea34": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B34-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_ea_21-0-34.tar.gz",
-        "1.21-ea35": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_x64_alpine-linux_hotspot_ea_21-0-35.tar.gz"
       }
     },
     "arm64": {
       "jdk@adoptium": {
-        "1.21-ea35": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_aarch64_alpine-linux_hotspot_ea_21-0-35.tar.gz"
       }
     }
   },
   "darwin": {
     "amd64": {
       "jdk@adoptium": {
-        "1.21-ea26": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B26-ea-beta/OpenJDK21U-jdk_x64_mac_hotspot_ea_21-0-26.tar.gz",
-        "1.21-ea27": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_x64_mac_hotspot_ea_21-0-27.tar.gz",
-        "1.21-ea28": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_x64_mac_hotspot_ea_21-0-28.tar.gz",
-        "1.21-ea29": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B29-ea-beta/OpenJDK21U-jdk_x64_mac_hotspot_ea_21-0-29.tar.gz",
-        "1.21-ea30": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B30-ea-beta/OpenJDK21U-jdk_x64_mac_hotspot_ea_21-0-30.tar.gz",
-        "1.21-ea31": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B31-ea-beta/OpenJDK21U-jdk_x64_mac_hotspot_ea_21-0-31.tar.gz",
-        "1.21-ea32": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B32-ea-beta/OpenJDK21U-jdk_x64_mac_hotspot_ea_21-0-32.tar.gz",
-        "1.21-ea33": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B33-ea-beta/OpenJDK21U-jdk_x64_mac_hotspot_ea_21-0-33.tar.gz",
-        "1.21-ea34": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B34-ea-beta/OpenJDK21U-jdk_x64_mac_hotspot_ea_21-0-34.tar.gz",
-        "1.21-ea35": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_x64_mac_hotspot_ea_21-0-35.tar.gz"
       }
     },
     "arm64": {
       "jdk@adoptium": {
-        "1.21-ea26": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B26-ea-beta/OpenJDK21U-jdk_aarch64_mac_hotspot_ea_21-0-26.tar.gz",
-        "1.21-ea27": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_aarch64_mac_hotspot_ea_21-0-27.tar.gz",
-        "1.21-ea28": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_aarch64_mac_hotspot_ea_21-0-28.tar.gz",
-        "1.21-ea29": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B29-ea-beta/OpenJDK21U-jdk_aarch64_mac_hotspot_ea_21-0-29.tar.gz",
-        "1.21-ea30": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B30-ea-beta/OpenJDK21U-jdk_aarch64_mac_hotspot_ea_21-0-30.tar.gz",
-        "1.21-ea31": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B31-ea-beta/OpenJDK21U-jdk_aarch64_mac_hotspot_ea_21-0-31.tar.gz",
-        "1.21-ea32": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B32-ea-beta/OpenJDK21U-jdk_aarch64_mac_hotspot_ea_21-0-32.tar.gz",
-        "1.21-ea33": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B33-ea-beta/OpenJDK21U-jdk_aarch64_mac_hotspot_ea_21-0-33.tar.gz",
-        "1.21-ea34": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B34-ea-beta/OpenJDK21U-jdk_aarch64_mac_hotspot_ea_21-0-34.tar.gz",
-        "1.21-ea35": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_aarch64_mac_hotspot_ea_21-0-35.tar.gz"
       }
     }
   },
   "linux": {
     "amd64": {
       "jdk@adoptium": {
-        "1.21-ea26": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B26-ea-beta/OpenJDK21U-jdk_x64_linux_hotspot_ea_21-0-26.tar.gz",
-        "1.21-ea27": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_x64_linux_hotspot_ea_21-0-27.tar.gz",
-        "1.21-ea28": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_x64_linux_hotspot_ea_21-0-28.tar.gz",
-        "1.21-ea29": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B29-ea-beta/OpenJDK21U-jdk_x64_linux_hotspot_ea_21-0-29.tar.gz",
-        "1.21-ea30": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B30-ea-beta/OpenJDK21U-jdk_x64_linux_hotspot_ea_21-0-30.tar.gz",
-        "1.21-ea31": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B31-ea-beta/OpenJDK21U-jdk_x64_linux_hotspot_ea_21-0-31.tar.gz",
-        "1.21-ea32": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B32-ea-beta/OpenJDK21U-jdk_x64_linux_hotspot_ea_21-0-32.tar.gz",
-        "1.21-ea33": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B33-ea-beta/OpenJDK21U-jdk_x64_linux_hotspot_ea_21-0-33.tar.gz",
-        "1.21-ea34": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B34-ea-beta/OpenJDK21U-jdk_x64_linux_hotspot_ea_21-0-34.tar.gz"
+        "1.23-ea24": "tgz+https://github.com/adoptium/temurin23-binaries/releases/download/jdk-23%2B24-ea-beta/OpenJDK-jdk_x64_linux_hotspot_23_24-ea.tar.gz"
       }
     },
     "arm": {
       "jdk@adoptium": {
-        "1.21-ea26": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B26-ea-beta/OpenJDK21U-jdk_arm_linux_hotspot_ea_21-0-26.tar.gz",
-        "1.21-ea27": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_arm_linux_hotspot_ea_21-0-27.tar.gz",
-        "1.21-ea28": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_arm_linux_hotspot_ea_21-0-28.tar.gz",
-        "1.21-ea29": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B29-ea-beta/OpenJDK21U-jdk_arm_linux_hotspot_ea_21-0-29.tar.gz",
-        "1.21-ea30": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B30-ea-beta/OpenJDK21U-jdk_arm_linux_hotspot_ea_21-0-30.tar.gz",
-        "1.21-ea31": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B31-ea-beta/OpenJDK21U-jdk_arm_linux_hotspot_ea_21-0-31.tar.gz",
-        "1.21-ea32": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B32-ea-beta/OpenJDK21U-jdk_arm_linux_hotspot_ea_21-0-32.tar.gz",
-        "1.21-ea33": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B33-ea-beta/OpenJDK21U-jdk_arm_linux_hotspot_ea_21-0-33.tar.gz",
-        "1.21-ea34": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B34-ea-beta/OpenJDK21U-jdk_arm_linux_hotspot_ea_21-0-34.tar.gz",
-        "1.21-ea35": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_arm_linux_hotspot_ea_21-0-35.tar.gz"
       }
     },
     "arm64": {
       "jdk@adoptium": {
-        "1.21-ea26": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B26-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_ea_21-0-26.tar.gz",
-        "1.21-ea27": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_ea_21-0-27.tar.gz",
-        "1.21-ea28": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_ea_21-0-28.tar.gz",
-        "1.21-ea29": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B29-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_ea_21-0-29.tar.gz",
-        "1.21-ea30": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B30-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_ea_21-0-30.tar.gz",
-        "1.21-ea31": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B31-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_ea_21-0-31.tar.gz",
-        "1.21-ea32": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B32-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_ea_21-0-32.tar.gz",
-        "1.21-ea33": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B33-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_ea_21-0-33.tar.gz",
-        "1.21-ea34": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B34-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_ea_21-0-34.tar.gz",
-        "1.21-ea35": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_aarch64_linux_hotspot_ea_21-0-35.tar.gz"
       }
     },
     "ppc64le": {
       "jdk@adoptium": {
-        "1.21-ea26": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B26-ea-beta/OpenJDK21U-jdk_ppc64le_linux_hotspot_ea_21-0-26.tar.gz",
-        "1.21-ea27": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_ppc64le_linux_hotspot_ea_21-0-27.tar.gz",
-        "1.21-ea28": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_ppc64le_linux_hotspot_ea_21-0-28.tar.gz",
-        "1.21-ea29": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B29-ea-beta/OpenJDK21U-jdk_ppc64le_linux_hotspot_ea_21-0-29.tar.gz",
-        "1.21-ea30": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B30-ea-beta/OpenJDK21U-jdk_ppc64le_linux_hotspot_ea_21-0-30.tar.gz",
-        "1.21-ea31": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B31-ea-beta/OpenJDK21U-jdk_ppc64le_linux_hotspot_ea_21-0-31.tar.gz",
-        "1.21-ea32": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B32-ea-beta/OpenJDK21U-jdk_ppc64le_linux_hotspot_ea_21-0-32.tar.gz",
-        "1.21-ea33": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B33-ea-beta/OpenJDK21U-jdk_ppc64le_linux_hotspot_ea_21-0-33.tar.gz",
-        "1.21-ea34": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B34-ea-beta/OpenJDK21U-jdk_ppc64le_linux_hotspot_ea_21-0-34.tar.gz",
-        "1.21-ea35": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_ppc64le_linux_hotspot_ea_21-0-35.tar.gz"
       }
     },
     "s390x": {
       "jdk@adoptium": {
-        "1.21-ea26": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B26-ea-beta/OpenJDK21U-jdk_s390x_linux_hotspot_ea_21-0-26.tar.gz",
-        "1.21-ea27": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_s390x_linux_hotspot_ea_21-0-27.tar.gz",
-        "1.21-ea28": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_s390x_linux_hotspot_ea_21-0-28.tar.gz",
-        "1.21-ea29": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B29-ea-beta/OpenJDK21U-jdk_s390x_linux_hotspot_ea_21-0-29.tar.gz",
-        "1.21-ea30": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B30-ea-beta/OpenJDK21U-jdk_s390x_linux_hotspot_ea_21-0-30.tar.gz",
-        "1.21-ea31": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B31-ea-beta/OpenJDK21U-jdk_s390x_linux_hotspot_ea_21-0-31.tar.gz",
-        "1.21-ea32": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B32-ea-beta/OpenJDK21U-jdk_s390x_linux_hotspot_ea_21-0-32.tar.gz",
-        "1.21-ea33": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B33-ea-beta/OpenJDK21U-jdk_s390x_linux_hotspot_ea_21-0-33.tar.gz",
-        "1.21-ea34": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B34-ea-beta/OpenJDK21U-jdk_s390x_linux_hotspot_ea_21-0-34.tar.gz",
-        "1.21-ea35": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_s390x_linux_hotspot_ea_21-0-35.tar.gz"
       }
     }
   },
   "windows": {
     "amd64": {
       "jdk@adoptium": {
-        "1.21-ea26": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B26-ea-beta/OpenJDK21U-jdk_x64_windows_hotspot_ea_21-0-26.zip",
-        "1.21-ea27": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_x64_windows_hotspot_ea_21-0-27.zip",
-        "1.21-ea28": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_x64_windows_hotspot_ea_21-0-28.zip",
-        "1.21-ea29": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B29-ea-beta/OpenJDK21U-jdk_x64_windows_hotspot_ea_21-0-29.zip",
-        "1.21-ea30": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B30-ea-beta/OpenJDK21U-jdk_x64_windows_hotspot_ea_21-0-30.zip",
-        "1.21-ea31": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B31-ea-beta/OpenJDK21U-jdk_x64_windows_hotspot_ea_21-0-31.zip",
-        "1.21-ea32": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B32-ea-beta/OpenJDK21U-jdk_x64_windows_hotspot_ea_21-0-32.zip",
-        "1.21-ea33": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B33-ea-beta/OpenJDK21U-jdk_x64_windows_hotspot_ea_21-0-33.zip",
-        "1.21-ea34": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B34-ea-beta/OpenJDK21U-jdk_x64_windows_hotspot_ea_21-0-34.zip",
-        "1.21-ea35": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_x64_windows_hotspot_ea_21-0-35.zip"
       }
     },
     "arm64": {
       "jdk@adoptium": {
-        "1.21-ea27": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B27-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_ea_21-0-27.zip",
-        "1.21-ea28": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B28-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_ea_21-0-28.zip",
-        "1.21-ea35": "zip+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21%2B35-ea-beta/OpenJDK21U-jdk_aarch64_windows_hotspot_ea_21-0-35.zip"
       }
     }
   }
