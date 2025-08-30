@@ -1,60 +1,921 @@
 {
   "aix": {
     "ppc64": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
       "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@ibm-semeru": {
+      },
+      "jdk@ibm-semeru-openj9-java11": {
+      },
+      "jdk@ibm-semeru-openj9-java16": {
+      },
+      "jdk@ibm-semeru-openj9-java17": {
+      },
+      "jdk@ibm-semeru-openj9-java18": {
+      },
+      "jdk@ibm-semeru-openj9-java19": {
+      },
+      "jdk@ibm-semeru-openj9-java20": {
+      },
+      "jdk@ibm-semeru-openj9-java21": {
+      },
+      "jdk@ibm-semeru-openj9-java22": {
+      },
+      "jdk@ibm-semeru-openj9-java23": {
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+      },
+      "jdk@ibm-semeru-openj9-java8": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
       }
     }
   },
   "alpine-linux": {
     "amd64": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-debugimage": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
       "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@corretto": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
       }
     },
     "arm64": {
       "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@corretto": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
       }
     }
   },
   "darwin": {
     "amd64": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-debugimage": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
       "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@corretto": {
+      },
+      "jdk@graalvm": {
+      },
+      "jdk@graalvm-community": {
+      },
+      "jdk@graalvm-java11": {
+      },
+      "jdk@graalvm-java16": {
+      },
+      "jdk@graalvm-java17": {
+      },
+      "jdk@graalvm-java19": {
+      },
+      "jdk@graalvm-java20": {
+      },
+      "jdk@graalvm-java21": {
+      },
+      "jdk@graalvm-java22": {
+      },
+      "jdk@graalvm-java23": {
+      },
+      "jdk@graalvm-java24": {
+      },
+      "jdk@graalvm-oracle": {
+      },
+      "jdk@ibm-semeru": {
+      },
+      "jdk@ibm-semeru-openj9-java11": {
+      },
+      "jdk@ibm-semeru-openj9-java16": {
+      },
+      "jdk@ibm-semeru-openj9-java17": {
+      },
+      "jdk@ibm-semeru-openj9-java18": {
+      },
+      "jdk@ibm-semeru-openj9-java19": {
+      },
+      "jdk@ibm-semeru-openj9-java20": {
+      },
+      "jdk@ibm-semeru-openj9-java21": {
+      },
+      "jdk@ibm-semeru-openj9-java22": {
+      },
+      "jdk@ibm-semeru-openj9-java23": {
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+      },
+      "jdk@ibm-semeru-openj9-java8": {
+      },
+      "jdk@java-oracle": {
+      },
+      "jdk@liberica": {
+      },
+      "jdk@liberica-full": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-jre-full": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@liberica-nik": {
+      },
+      "jdk@liberica-nik-core": {
+      },
+      "jdk@liberica-nik-full": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
       }
     },
     "arm64": {
       "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@corretto": {
+      },
+      "jdk@graalvm-community": {
+      },
+      "jdk@graalvm-java11": {
+      },
+      "jdk@graalvm-java17": {
+      },
+      "jdk@graalvm-java19": {
+      },
+      "jdk@graalvm-java20": {
+      },
+      "jdk@graalvm-java21": {
+      },
+      "jdk@graalvm-java22": {
+      },
+      "jdk@graalvm-java23": {
+      },
+      "jdk@graalvm-java24": {
+      },
+      "jdk@graalvm-oracle": {
+      },
+      "jdk@ibm-semeru": {
+      },
+      "jdk@ibm-semeru-openj9-java11": {
+      },
+      "jdk@ibm-semeru-openj9-java17": {
+      },
+      "jdk@ibm-semeru-openj9-java18": {
+      },
+      "jdk@ibm-semeru-openj9-java19": {
+      },
+      "jdk@ibm-semeru-openj9-java20": {
+      },
+      "jdk@ibm-semeru-openj9-java21": {
+      },
+      "jdk@ibm-semeru-openj9-java22": {
+      },
+      "jdk@ibm-semeru-openj9-java23": {
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+      },
+      "jdk@java-oracle": {
+      },
+      "jdk@liberica": {
+      },
+      "jdk@liberica-full": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-jre-full": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@liberica-nik": {
+      },
+      "jdk@liberica-nik-core": {
+      },
+      "jdk@liberica-nik-full": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
       }
     }
   },
   "linux": {
     "amd64": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-debugimage": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
       "jdk@adoptium": {
+        "1.11.0.28": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-jdk_x64_linux_hotspot_11.0.28_6.tar.gz",
+        "1.17.0.16": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.16_8.tar.gz",
+        "1.21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.8_9.tar.gz",
         "1.25-ea36": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36-ea-beta/OpenJDK25U-jdk_x64_linux_hotspot_25_36-ea.tar.gz"
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@corretto": {
+      },
+      "jdk@graalvm": {
+      },
+      "jdk@graalvm-community": {
+      },
+      "jdk@graalvm-java11": {
+      },
+      "jdk@graalvm-java16": {
+      },
+      "jdk@graalvm-java17": {
+      },
+      "jdk@graalvm-java19": {
+      },
+      "jdk@graalvm-java20": {
+      },
+      "jdk@graalvm-java21": {
+      },
+      "jdk@graalvm-java22": {
+      },
+      "jdk@graalvm-java23": {
+      },
+      "jdk@graalvm-java24": {
+      },
+      "jdk@graalvm-oracle": {
+      },
+      "jdk@ibm-semeru": {
+      },
+      "jdk@ibm-semeru-openj9-java11": {
+      },
+      "jdk@ibm-semeru-openj9-java16": {
+      },
+      "jdk@ibm-semeru-openj9-java17": {
+      },
+      "jdk@ibm-semeru-openj9-java18": {
+      },
+      "jdk@ibm-semeru-openj9-java19": {
+      },
+      "jdk@ibm-semeru-openj9-java20": {
+      },
+      "jdk@ibm-semeru-openj9-java21": {
+      },
+      "jdk@ibm-semeru-openj9-java22": {
+      },
+      "jdk@ibm-semeru-openj9-java23": {
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+      },
+      "jdk@ibm-semeru-openj9-java8": {
+      },
+      "jdk@java-oracle": {
+      },
+      "jdk@liberica": {
+      },
+      "jdk@liberica-crac": {
+      },
+      "jdk@liberica-full": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-jre-full": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@liberica-nik": {
+      },
+      "jdk@liberica-nik-core": {
+      },
+      "jdk@liberica-nik-full": {
+      },
+      "jdk@temurin": {
+        "1.11.0.28": "tgz+https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.28%2B6/OpenJDK11U-jdk_x64_linux_hotspot_11.0.28_6.tar.gz",
+        "1.17.0.16": "tgz+https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.16_8.tar.gz",
+        "1.21.0.8": "tgz+https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.8%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.8_9.tar.gz",
+        "1.25-ea36": "tgz+https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25%2B36-ea-beta/OpenJDK25U-jdk_x64_linux_hotspot_25_36-ea.tar.gz"
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
       }
     },
     "arm": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-debugimage": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
       "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@liberica": {
+      },
+      "jdk@liberica-full": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-jre-full": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
+      }
+    },
+    "arm64": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-debugimage": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
+      "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@corretto": {
+      },
+      "jdk@graalvm-community": {
+      },
+      "jdk@graalvm-java11": {
+      },
+      "jdk@graalvm-java16": {
+      },
+      "jdk@graalvm-java17": {
+      },
+      "jdk@graalvm-java19": {
+      },
+      "jdk@graalvm-java20": {
+      },
+      "jdk@graalvm-java21": {
+      },
+      "jdk@graalvm-java22": {
+      },
+      "jdk@graalvm-java23": {
+      },
+      "jdk@graalvm-java24": {
+      },
+      "jdk@graalvm-oracle": {
+      },
+      "jdk@ibm-semeru": {
+      },
+      "jdk@ibm-semeru-openj9-java11": {
+      },
+      "jdk@ibm-semeru-openj9-java16": {
+      },
+      "jdk@ibm-semeru-openj9-java17": {
+      },
+      "jdk@ibm-semeru-openj9-java18": {
+      },
+      "jdk@ibm-semeru-openj9-java19": {
+      },
+      "jdk@ibm-semeru-openj9-java20": {
+      },
+      "jdk@ibm-semeru-openj9-java21": {
+      },
+      "jdk@ibm-semeru-openj9-java22": {
+      },
+      "jdk@ibm-semeru-openj9-java23": {
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+      },
+      "jdk@ibm-semeru-openj9-java8": {
+      },
+      "jdk@java-oracle": {
+      },
+      "jdk@liberica": {
+      },
+      "jdk@liberica-crac": {
+      },
+      "jdk@liberica-full": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-jre-full": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@liberica-nik": {
+      },
+      "jdk@liberica-nik-core": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
+      }
+    },
+    "ppc64": {
+      "jdk@liberica": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
+      }
+    },
+    "ppc64le": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-debugimage": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
+      "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@ibm-semeru": {
+      },
+      "jdk@ibm-semeru-openj9-java11": {
+      },
+      "jdk@ibm-semeru-openj9-java16": {
+      },
+      "jdk@ibm-semeru-openj9-java17": {
+      },
+      "jdk@ibm-semeru-openj9-java18": {
+      },
+      "jdk@ibm-semeru-openj9-java19": {
+      },
+      "jdk@ibm-semeru-openj9-java20": {
+      },
+      "jdk@ibm-semeru-openj9-java21": {
+      },
+      "jdk@ibm-semeru-openj9-java22": {
+      },
+      "jdk@ibm-semeru-openj9-java23": {
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+      },
+      "jdk@ibm-semeru-openj9-java8": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      }
+    },
+    "s390x": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-debugimage": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
+      "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@ibm-semeru": {
+      },
+      "jdk@ibm-semeru-openj9-java11": {
+      },
+      "jdk@ibm-semeru-openj9-java16": {
+      },
+      "jdk@ibm-semeru-openj9-java17": {
+      },
+      "jdk@ibm-semeru-openj9-java18": {
+      },
+      "jdk@ibm-semeru-openj9-java19": {
+      },
+      "jdk@ibm-semeru-openj9-java20": {
+      },
+      "jdk@ibm-semeru-openj9-java21": {
+      },
+      "jdk@ibm-semeru-openj9-java22": {
+      },
+      "jdk@ibm-semeru-openj9-java23": {
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+      },
+      "jdk@ibm-semeru-openj9-java8": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      }
+    },
+    "x86": {
+      "jdk@liberica": {
+      },
+      "jdk@liberica-full": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-jre-full": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
+      }
+    }
+  },
+  "linux-musl": {
+    "amd64": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-debugimage": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
+      "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@corretto": {
+      },
+      "jdk@liberica": {
+      },
+      "jdk@liberica-crac": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@liberica-nik": {
+      },
+      "jdk@liberica-nik-core": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
       }
     },
     "arm64": {
       "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@corretto": {
+      },
+      "jdk@liberica": {
+      },
+      "jdk@liberica-crac": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@liberica-nik": {
+      },
+      "jdk@liberica-nik-core": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
       }
-    },
-    "ppc64le": {
-      "jdk@adoptium": {
-      }
-    },
-    "s390x": {
-      "jdk@adoptium": {
+    }
+  },
+  "solaris": {
+    "amd64": {
+      "jdk@liberica": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-lite": {
       }
     }
   },
   "windows": {
     "amd64": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-debugimage": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
       "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@corretto": {
+      },
+      "jdk@graalvm": {
+      },
+      "jdk@graalvm-community": {
+      },
+      "jdk@graalvm-java11": {
+      },
+      "jdk@graalvm-java16": {
+      },
+      "jdk@graalvm-java17": {
+      },
+      "jdk@graalvm-java19": {
+      },
+      "jdk@graalvm-java20": {
+      },
+      "jdk@graalvm-java21": {
+      },
+      "jdk@graalvm-java22": {
+      },
+      "jdk@graalvm-java23": {
+      },
+      "jdk@graalvm-java24": {
+      },
+      "jdk@graalvm-oracle": {
+      },
+      "jdk@ibm-semeru": {
+      },
+      "jdk@ibm-semeru-openj9-java11": {
+      },
+      "jdk@ibm-semeru-openj9-java16": {
+      },
+      "jdk@ibm-semeru-openj9-java17": {
+      },
+      "jdk@ibm-semeru-openj9-java18": {
+      },
+      "jdk@ibm-semeru-openj9-java19": {
+      },
+      "jdk@ibm-semeru-openj9-java20": {
+      },
+      "jdk@ibm-semeru-openj9-java21": {
+      },
+      "jdk@ibm-semeru-openj9-java22": {
+      },
+      "jdk@ibm-semeru-openj9-java23": {
+      },
+      "jdk@ibm-semeru-openj9-java24": {
+      },
+      "jdk@ibm-semeru-openj9-java8": {
+      },
+      "jdk@java-oracle": {
+      },
+      "jdk@liberica": {
+      },
+      "jdk@liberica-full": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-jre-full": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@liberica-nik": {
+      },
+      "jdk@liberica-nik-core": {
+      },
+      "jdk@liberica-nik-full": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
       }
     },
     "arm64": {
       "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@liberica": {
+      },
+      "jdk@liberica-full": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-jre-full": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
+      }
+    },
+    "x86": {
+      "jdk@adopt": {
+      },
+      "jdk@adopt-debugimage": {
+      },
+      "jdk@adopt-jre": {
+      },
+      "jdk@adopt-testimage": {
+      },
+      "jdk@adoptium": {
+      },
+      "jdk@adoptium-debugimage": {
+      },
+      "jdk@adoptium-jre": {
+      },
+      "jdk@adoptium-testimage": {
+      },
+      "jdk@liberica": {
+      },
+      "jdk@liberica-full": {
+      },
+      "jdk@liberica-jre": {
+      },
+      "jdk@liberica-jre-full": {
+      },
+      "jdk@liberica-lite": {
+      },
+      "jdk@temurin": {
+      },
+      "jdk@temurin-debugimage": {
+      },
+      "jdk@temurin-jre": {
+      },
+      "jdk@temurin-testimage": {
+      },
+      "jdk@zulu": {
+      },
+      "jdk@zulu-jre": {
       }
     }
   }
